@@ -12,7 +12,7 @@ Run the app in two terminals
 
 ```sh
 dotnet run -- server
-dotnet run --client
+dotnet run -- client
 ```
 
 The server should bind to `IPAddress.Loopback` on port `5050`, accept one client, and process messages until that client disconnects. The client should connect to that address and read messages from the console.
